@@ -1,0 +1,308 @@
+/* DEBUT RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* DEBUT RESET */
+
+
+/* DEBUT GENERAL */
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+.separator {
+    margin: 20px auto;
+    height: 10px;
+    width: 100px;
+    background: #111;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: white;
+    color: #222;
+}
+
+.btn-dark {
+    background: #222;
+    color: white;
+    border: 1px solid #222;
+}
+
+.btn-dark:hover {
+    background: white;
+    color: #222;
+}
+
+.btn-primary:hover {
+    background: #222;
+    color: white;
+}
+
+.container {
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.underline {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.chip {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    border-radius: 100%;
+    background: #333;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.chip-purple {
+    background: #be418c;
+}
+
+.chip-brown {
+    background: #8c5e24;
+}
+
+
+/* FIN GENERAL */
+
+
+/* DEBUT HEADER */
+
+.header {
+    background: #333;
+    overflow: auto;
+    line-height: 1.7em;
+}
+
+.header nav h1 {
+    float: left;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.header nav h1 a {
+    color: white;
+}
+
+.header nav ul {
+    float: right;
+    list-style: none;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+.header nav ul li a {
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.header nav ul li a:hover {
+    background: #444;
+}
+
+.active {
+    background: #444;
+}
+
+
+/* FIN HEADER */
+
+
+/* DEBUT VP */
+
+.vp {
+    min-height: 600px;
+    background: url(../images/frame.jpg) center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.vp-content {
+    max-width: 600px;
+    padding: 20px;
+    padding-top: 100px;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.vp-content h1 {
+    font-size: 3rem;
+}
+
+.vp-content p {
+    font-size: 18px;
+    letter-spacing: 0.9px;
+    line-height: 1.9em;
+}
+
+
+/* FIN VP */
+
+
+/* DEBUT SECTION FEATURES */
+
+.features {
+    padding: 100px 20px 100px 20px;
+    overflow: auto;
+    text-align: center;
+}
+
+.feature {
+    float: left;
+    width: 50%;
+}
+
+
+/* FIN SECTION FEATURES */
+
+
+/* DEBUT SECTION PERSON */
+
+.person {
+    height: 400px;
+    background: url(../images/person-1.jpg) center center/cover;
+}
+
+
+/* FIN SECTION PERSON */
+
+
+/* DEBUT SECTION RESERVATION */
+
+.reservation {
+    padding: 100px 20px 100px 20px;
+    text-align: center;
+}
+
+
+/* FIN SECTION RESERVATION */
+
+
+/* DEBUT SECTION FOOTER */
+
+footer {
+    background: #222;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+
+/* FIN SECTION FOOTER */
+
+
+/* DEBUT SECTION WHERE  */
+
+.where {
+    padding: 180px 0 100px 0;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.where-img {
+    float: left;
+    width: 45%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.where-text {
+    float: right;
+    width: 50%;
+}
+
+
+/* FIN SECTION WHERE  */
+
+
+/* DEBUT SECTION CONTACT */
+
+.contact {
+    padding: 100px 0 100px 0;
+    min-height: 100vh;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+.contact-form-container form label {
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form-container form input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.contact-form-container form textarea {
+    min-height: 80px;
+}
+
+
+/* FIN SECTION CONTACT */
